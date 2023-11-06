@@ -1,0 +1,779 @@
+/* =========================================================
+               Common css part start Here
+   =========================================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 0.8;
+    margin-bottom: 0;
+}
+
+.clr {
+    clear: both;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+/* =========================================================
+               Common css part End Here
+   =========================================================*/
+/* =========================================================
+              navbar part start Here
+   =========================================================*/
+#navbar {
+
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+    padding-top: 35px;
+}
+
+.menu {
+    width: 80%;
+    float: left;
+
+}
+
+.menu ul {
+    text-align: right;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+.menu ul li a {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #f5f5f5;
+    transition: all linear .3s;
+}
+
+.menu ul li a:hover {
+    color: #28b8d8;
+}
+
+.menu ul li:last-child {
+    padding-right: 0;
+
+}
+/* =========================================================
+              navbar part End Here
+   =========================================================*/
+/* =========================================================
+              Banner part start Here
+   =========================================================*/
+#banner {
+    padding-top: 330px;
+    padding-bottom: 253px;
+    background: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.banner_content {
+    text-align: center;
+}
+
+.banner_content h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.banner_content h3 {
+    font-family: 'Roboto Slab', serif;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 17px;
+}
+
+.banner_content p {
+    font-family: 'Roboto Slab', serif;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+/* =========================================================
+              Banner part End Here
+   =========================================================*/
+/* =========================================================
+              service part start Here
+   =========================================================*/
+
+#service {
+    background-color: #f9f9f9;
+}
+
+.service_header {
+    text-align: center;
+
+}
+
+.service_header h4 {
+    color: #444444;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    font-weight: 300px;
+    padding-top: 79px;
+    padding-bottom: 29px;
+}
+
+.service_header p {
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+    font-size: 14px;
+    font-weight: 400px;
+
+
+
+}
+
+.service_wrapper {
+    padding-bottom: 82px;
+}
+
+.service_main_header {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #444444;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 80px;
+
+}
+
+.service_item {
+    border: 1px solid #e3e3e3;
+    width: 370px;
+    padding: 15px 15px 25px 15px;
+    float: left;
+
+}
+
+.service_content {
+    text-align: center;
+}
+
+.service_content h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #444444;
+    padding-top: 19px;
+}
+
+.middle_service {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.service_content p {
+    font-family: 'Roboto ', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666;
+    padding-top: 15px;
+    padding-right: 50px;
+    line-height: 22px;
+}
+
+.service_main_header {
+    padding-bottom: 29px;
+}
+/* =========================================================
+              service part End Here
+   =========================================================*/
+/* =========================================================
+            instagram part start Here
+   =========================================================*/
+.insta_header {
+    text-align: center;
+}
+
+.insta_top {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #2c2c2c;
+}
+
+.insta_header h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #d5d5d5;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+
+.insta_header h3::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: -117px;
+    width: 100px;
+    height: 1px;
+    background-color: #535353;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.insta_header h3::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: -117px;
+    width: 100px;
+    height: 1px;
+    background-color: #535353;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.insta_buttom {
+    text-align: center;
+    background-color: #2c2c2c;
+    padding-top: 75px;
+    padding-bottom: 68px;
+}
+
+.insta_buttom .insta-icon {
+    font-size: 14px;
+    margin-right: 7px;
+}
+
+.insta_buttom a {
+    font-family: 'Roboto ', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    padding-top: 18px;
+    padding-bottom: 19px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border: 1px solid #797979;
+}
+
+.insta-item {
+    width: 337px;
+    float: left;
+    overflow: hidden;
+}
+/* =========================================================
+            instagram part End Here
+   =========================================================*/
+
+/* =========================================================
+            journal part start Here
+   =========================================================*/
+#journal {
+    padding-top: 79px;
+    padding-bottom: 80px;
+    background-color: #f9f9f9;
+}
+
+#journal .insta_top h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #d5d5d5;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+
+.insta_top h3::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: -117px;
+    width: 100px;
+    height: 1px;
+    background-color: #535353;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.insta_top h3::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: -117px;
+    width: 100px;
+    height: 1px;
+    background-color: #535353;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.journal_main {
+    float: left;
+}
+
+#journal .insta_header h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #444444;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.journal_item {
+    width: 370px;
+    border: 1px solid #e3e3e3;
+    padding-top: 27px;
+    padding-bottom: 26px;
+}
+
+.journal_head {
+    text-align: center;
+}
+
+.journal_head h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #444444;
+    padding-bottom: 13px;
+
+}
+
+.journal_head p {
+    font-family: 'Roboto ', serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #999999;
+}
+
+.journal_img {
+    padding-top: 28px;
+}
+
+.journal_img img {
+    display: block;
+}
+
+.journal_content {
+    text-align: left;
+    padding-top: 25px;
+}
+
+.journal_content p {
+    font-family: 'Roboto ', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666;
+    padding-right: 35px;
+    line-height: 22px;
+    padding-left: 25px;
+}
+
+.inner-journal_content {
+    padding-top: 35px;
+    padding-left: 32px;
+    padding-right: 38px;
+}
+
+.inner-journal_content h3 {
+    font-family: 'Roboto ', serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #999999;
+    position: relative;
+    text-transform: uppercase;
+
+}
+
+.inner-journal_content h3::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 2px;
+    width: 103px;
+    background-color: #28b8d8;
+    top: 140%;
+    transform: translateY(-50%);
+}
+
+.inner-journal_content span {
+    float: right;
+
+}
+
+.middle_journal {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.journal_wraper {
+    padding-top: 32px;
+}
+/* =========================================================
+            instagram part ENd Here
+   =========================================================*/
+   /* =========================================================
+            portfolio part start Here
+   =========================================================*/
+#portfolio {
+    padding-bottom: 79px;
+    background-color: #f9f9f9;
+}
+
+#portfolio .left_port_header .insta_header h3::after {
+    content: none;
+}
+
+.left_iteam {
+    float: left;
+    width: 570px;
+    margin-right: 25px;
+}
+
+.right_iteam {
+    float: left;
+    width: 570px;
+
+}
+
+#portfolio .left_port_header .insta_header {
+    text-align: left;
+}
+
+#portfolio .insta_header h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #444444;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.inner_port_img img {
+    display: block;
+    width: 198px;
+}
+
+.inner_port_img {
+    float: left;
+    width: 194px;
+    margin-right: 33px;
+}
+
+.inner_port_content {
+    float: left;
+    width: 346px;
+}
+
+.inner_right_img {
+    float: left;
+    width: 54px;
+    margin-right: 15px;
+    text-align: center;
+    display: block;
+}
+
+.inner_right_content {
+    float: left;
+    width: 499px;
+}
+
+.inner_port_wrapper .innerport_content p {
+
+    font-family: 'Roboto ', serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #666;
+    line-height: 28px;
+    padding: 0 50px;
+
+}
+
+.inner_port_wrapper .inner_paragraph p {
+
+    font-family: 'Roboto ', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666;
+    padding-top: 14px;
+    line-height: 24px;
+    padding-right: 20px;
+
+}
+
+.mid {
+
+    margin-top: 23px;
+}
+
+.mid3 {
+    margin-top: 23px;
+}
+
+.left_port_header {
+    margin-bottom: 31px;
+}
+
+.inner_right_content {
+    padding-right: 58px;
+}
+
+.inner_right_content p {
+    font-family: 'Roboto ', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666;
+    line-height: 22px;
+
+}
+
+.inner_right_content h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #444444;
+    margin-bottom: 14px;
+
+}
+/* =========================================================
+                 portfolio part End Here
+   =========================================================*/
+   /* =========================================================
+                 footer part start Here
+   =========================================================*/
+#footer {
+    padding-top: 68px;
+    padding-bottom: 68px;
+    background-color: #373737;
+}
+
+.footer_first_iteam {
+    width: 270px;
+    float: left;
+    padding-right: 30px;
+}
+
+.iteam_header {
+    padding-bottom: 25px;
+}
+
+.iteam_header h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #f0f0f0;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.footer_content p {
+    font-family: 'Roboto ', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #cacaca;
+    line-height: 24px;
+
+
+}
+
+.footer_inner_contentt {
+    padding-top: 15px;
+}
+
+.f_icon {
+    width: 10px;
+    text-align: center;
+    float: left;
+    padding-right: 23px;
+}
+
+.f_icon a {
+    font-size: 11px;
+    color: #fff;
+}
+
+.f_icon_text {
+    width: 248px;
+}
+
+.f_icon_text a {
+    color: #fff;
+    font-family: 'Roboto ', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #cacaca;
+}
+
+.secondd {
+    padding-top: 10px;
+    padding-bottom: 18px;
+
+}
+
+.inner-footer-second-iteam p {
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-right: 10px;
+}
+
+.inner-footer_second-iteam p {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.inner-footer-4th-iteam p {
+    padding-top: 20px;
+}
+
+.footer-extra p {
+    padding-right: 36px;
+}
+
+.footer-contentt p {
+    padding-right: 36px;
+
+}
+
+.inner-footer_second-iteam p {
+    padding-right: 36px;
+}
+
+.third-footer p {
+    padding-right: 41px;
+}
+
+.last-footer {
+    padding-right: 0px;
+}
+
+.inner-footer-4th-iteam {
+    padding-right: 15px;
+}
+
+.lastt {
+    padding-right: 29px;
+}
+ /* =========================================================
+                 footer part ENd Here
+   =========================================================*/
+    /* =========================================================
+                 Back-to-top part start Here
+   =========================================================*/
+.back_to_top{
+    position: fixed;
+    right: 15px;
+    bottom: 90px;
+    z-index: 99999999;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(235, 32, 184);
+    text-align: center;
+   opacity: 0;
+   animation: nacho 2s;
+}
+@keyframes nacho{
+    0%{
+        top: 0px;
+    }
+    100%{
+        top: 550px;
+    }
+}
+.back_to_top i{
+line-height: 30px;
+font-size: 15px;
+color: #000;
+}
+    /* =========================================================
+                 Back-to-top part End Here
+   =========================================================*/
+       /* =========================================================
+                 copyright part start Here
+   =========================================================*/
+#copy {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: #333;
+}
+
+#copy p {
+    color: #cacaca;
+    font-family: 'Roboto ', serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+ /* =========================================================
+                 copyright part End Here
+   =========================================================*/
+ /* =========================================================
+                 sticky-nav part  Start Her
+   =========================================================*/
+.sticky-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    animation: sticky 1s;
+    background-color: rgb(63, 45, 45);
+}
+
+@keyframes sticky {
+    from {
+        top: -100px;
+    }
+
+    to {
+        top: 0;
+    }
+}
+/* =========================================================
+                sticky-nav part End Here
+   =========================================================*/
